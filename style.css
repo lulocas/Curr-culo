@@ -1,0 +1,246 @@
+body{
+    background-color: #0f7055;
+    border: none;
+    margin: 0;
+    font-family: "Kanit", serif;
+}
+
+#nav{
+    height: 60px;
+    background-color: #0f7055;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-top: 1%;
+}
+.linkcat{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-right:25px;
+    width: 150px;
+    height: 50px;
+    color:#f199bf;
+}
+.linkcat:hover{
+    color: #0f7055;
+    background-color: #f199bf;
+}
+
+#linhanav{
+    border: 2px dashed #f199bf;
+    width: 93%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#sobremim{
+    width: 100%;
+    background-color: #0f7055;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+#textomim{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 25px;
+    color:#f199bf;
+}
+#botoeslink{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5%;
+}
+.botaolink{
+    width: 200px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none;
+    height: 30px;
+    background-color: #f199bf;
+    color:#0f7055;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.botaolink:hover{
+    background-color: #fefeff;
+    color: #0f7055;
+}
+
+
+#skills{
+    background-color: #fefeff;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 50px;
+    color: #f199bf;
+    text-align: center;
+    margin-top: 5%;
+}
+#skillstexto{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    margin-bottom: 10%; 
+    margin-top: 5%;
+}
+.linhaskills{
+    font-size: 30px;
+    color:#f199bf;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 80%;
+}
+.coluna{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+.barra{
+    width: 300px;
+    border: 5px solid #f199bf;
+    height: 50px;
+}
+.barrainterna{
+    background-color: #0f7055;
+    height: 100%;
+    width: 80%;
+}
+#java{
+    width: 50%;
+}
+#python{
+    width: 40%;
+}
+#js{
+    width: 35%;
+}
+
+#textosedu{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 5%;
+}
+.bolinha{
+    width: 25px;
+    height: 25px;
+    background-color: #f199bf;
+    border-radius: 100%;
+    margin-top: 4%;
+    margin-right: 10px;
+}
+.partes{
+    color:#f199bf;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.edup{
+    margin-bottom: 20%;
+}
+#linhadotempo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+#linhaprin{
+    border: 4px solid #f199bf;
+    width: 90%;
+}
+#linhacima{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.traco{
+    height: 20px;
+    border-left: 3px dashed #f199bf;
+}
+#linhabaixo{
+    display: flex;
+    justify-content: center;
+}
+#ptempo{
+    color:#f199bf;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+#ptempob{
+    color:#f199bf;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+#ctp{
+    margin-left: 5%;
+}
+
+#contato{
+    background-color: #fefeff;
+    height: 700px;
+}
+#formu{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    gap: 10px;
+    background-color: #0f7055;
+    border-radius: 25px;
+}
+.formulario{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    border-radius: 15px;
+    background-color: #fefeff;
+    border: 5px solid #f199bf;
+}
+textarea{
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 300px;
+}
+#nome{
+    margin-top: 5%;
+}
+input[type=submit]{
+    width: 15%;
+    margin-left: 43%;
+    background-color: #f199bf;
+    border: none;
+    border-radius: 25px;
+    color: #0f7055;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #fefeff;
+    color:#f199bf;
+}
